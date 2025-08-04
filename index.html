@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Chilekotha | Coming Soon</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Noto+Sans+Bengali:wght@400;700&display=swap" rel="stylesheet">
   <style>
     * {
       box-sizing: border-box;
@@ -12,39 +12,94 @@
       padding: 0;
     }
     body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #f8f8f8, #e0e0e0);
+      font-family: 'Poppins', 'Noto Sans Bengali', sans-serif;
+      background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
       color: #333;
-      height: 100vh;
+      line-height: 1.8;
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center;
-      padding: 2rem;
+      min-height: 100vh;
+      padding: 2rem 1rem;
     }
     .container {
-      max-width: 600px;
-      background: #fff;
-      padding: 3rem;
-      border-radius: 15px;
-      box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+      max-width: 800px;
+      background: #ffffff;
+      padding: 2.5rem 3rem;
+      border-radius: 20px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
     h1 {
-      font-size: 2.5rem;
-      color: #222;
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #1a2a4c;
       margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.8rem;
+      color: #b91c1c;
+      margin-top: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 600;
     }
     p {
       font-size: 1.1rem;
       color: #555;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
     .highlight {
-      font-weight: 600;
+      font-weight: 700;
       color: #b91c1c;
     }
-    footer {
+    .announcement-box {
+      background-color: #fdf2f2;
+      border: 1px solid #f8d7da;
+      border-radius: 10px;
+      padding: 1.5rem;
       margin-top: 2rem;
+      text-align: left;
+    }
+    .announcement-box h3 {
+      font-size: 1.4rem;
+      color: #721c24;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .announcement-box ul {
+      list-style-type: '✅';
+      padding-left: 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    .announcement-box li {
+      margin-bottom: 0.75rem;
+      padding-left: 0.5rem;
+    }
+    .contact-info p {
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+    }
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    .features {
+        margin-top: 2.5rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid #e0e0e0;
+    }
+    .feature-item {
+        margin-bottom: 1rem;
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #333;
+    }
+    footer {
+      margin-top: 3rem;
       font-size: 0.9rem;
       color: #888;
     }
@@ -52,15 +107,51 @@
 </head>
 <body>
   <div class="container">
-    <h1>Chilekotha is Coming Soon 🚀</h1>
+    <h1><span class="highlight">চিলেকোঠা</span> is Coming Soon 🚀</h1>
     <p>
       🌍 <strong>Directly from London, to your doorstep!</strong><br />
-      🇬🇧 লন্ডন এবং বিশ্বের বিভিন্ন দেশ থেকে আনা প্রিমিয়াম কোয়ালিটির পণ্য এখন <span class="highlight">চিলেকোঠায়</span>!<br />
+       লন্ডন এবং বিশ্বের বিভিন্ন দেশ থেকে আনা প্রিমিয়াম কোয়ালিটির পণ্য এখন <span class="highlight">চিলেকোঠায়</span>!<br />
       🎁 Authentic, stylish, and handpicked – just for you.
     </p>
-    <p>🛒 Discover the elegance of rooftop finds. Stay tuned!</p>
+    <p>🛒 Discover the elegance of rooftop finds. Stay tuned for our grand opening!</p>
+
+    <div class="features">
+        <h2>Exciting Features Are on the Way!</h2>
+        <p class="feature-item">🛍️ Upload & Sell Your Products for FREE!</p>
+        <p class="feature-item">🤝 Earn with our Affiliate Program!</p>
+        <p class="feature-item">💼 Become a Reseller & Build Your Business!</p>
+    </div>
+
+    <div class="announcement-box">
+      <h3>✨📢 চিলেকোঠা রিসেলার নিয়োগ চলছে! ✨</h3>
+      <p style="text-align: center; font-weight: 600; color: #721c24;">ঘরে বসে ইনকাম করার অসাধারণ সুযোগ 💻📦 কোন এড ফি দিতে হবে না – একদম ফ্রি!</p>
+      
+      <h4>🛍 আমাদের প্রোডাক্টসমূহ:</h4>
+      <ul>
+        <li>শুধুমাত্র UK, China ও অন্যান্য দেশ থেকে ইমপোর্ট করা প্রিমিয়াম প্রোডাক্ট</li>
+        <li>ড্রেস, শাড়ি, কসমেটিকস, স্কিন কেয়ার, গিফট আইটেম, হোম অ্যাপ্লায়েন্স এবং আরও অনেক কিছু!</li>
+      </ul>
+
+      <h4>📌 আপনার কাজ হবে:</h4>
+      <ul>
+        <li>আমাদের প্রোডাক্ট পেজ ও পোস্ট শেয়ার করা</li>
+        <li>অর্ডার কনফার্ম হলে (নাম, ঠিকানা, মোবাইল নাম্বার নিয়ে) আমাদের জানানো</li>
+        <li>প্রতিটি সেলের জন্য আপনার নিজস্ব কোড থাকবে, সেই কোড অনুযায়ী কমিশন দেওয়া হবে</li>
+        <li>ফুল ক্যাশ অন ডেলিভারিতে পণ্য ডেলিভারি করা হবে (ডেলিভারি চার্জ কাস্টমারের কাছ থেকে নেওয়া হবে)</li>
+      </ul>
+
+      <div class="contact-info">
+        <h4 style="text-align: center; margin-bottom: 1rem;">🔥 আজই আমাদের রিসেলার টিমে যোগ দিন এবং ঘরে বসেই উপার্জন শুরু করুন! ❤</h4>
+        <p>🏬 <strong>আমাদের প্রোডাক্ট পেজ:</strong> <a href="https://www.facebook.com/chilekothauk" target="_blank">facebook.com/chilekothauk</a></p>
+        <p>🏢 <strong>কোম্পানি পেজ:</strong> <a href="https://www.facebook.com/share/1GDsfn7XRL/" target="_blank">Chilekotha Company Page</a></p>
+        <p>👤 <strong>Facebook ID:</strong> <a href="https://www.facebook.com/najmunnahar360" target="_blank">Najmun Nahar</a></p>
+        <p>📞 <strong>যোগাযোগ করুন:</strong></p>
+        <p style="text-align: center; font-weight: 600;">✅ WhatsApp – 01647431836<br>✅ অথবা পেজের ইনবক্সে মেসেজ করুন</p>
+      </div>
+
+    </div>
+
     <footer>© 2025 Chilekotha. All rights reserved.</footer>
   </div>
 </body>
 </html>
-
